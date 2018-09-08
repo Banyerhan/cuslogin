@@ -11,5 +11,5 @@ I'm so happy if you do. Fork the project, make whatever changes you want to do a
 
 For testing it locally, there's a `fuction.php` file included in the `theme folder`. Open up the terminal and run the update file ( You need to have **Perfect theme** installed ).
 
-Copyright (c) 2014 Shidhin C R - [Licence](LICENCE.txt)
+Copyright (c) 2018 Ngihtfury - [Licence](LICENCE.txt)
 
