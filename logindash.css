@@ -1,0 +1,52 @@
+/* Change background image and font family */
+body {
+  background-image: url("http://nightfury.info/wp-content/uploads/2018/07/bg-login.jpg");
+  font-family: Arial,Verdana,sans-serif;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+ 
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  background-image: url('./cuslogin/favic.png');
+  width: 150px;
+  height: 150px;
+  background-size: 100%;
+}
+ 
+/* Add a few changes to the color and style of form itself */
+.login label {
+  color: #ccc;
+  display: block;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.interim-login.login h1 a {
+    width: 150px;
+}
+.login form {
+    background: rgba(121, 85, 72, .5);
+    box-shadow: 5px 5px 5px rgba(201, 205, 203, .5);
+    border-radius: 0px 15px 15px 0px;
+}
+
+#login {padding: 2% 0 0 !important; }
+ 
+.login form .input {
+  font-weight: normal;
+}
+ 
+.login #backtoblog a, .login #nav a {
+  color: #ffffff;
+}
+ 
+.wp-core-ui .button-primary {
+  background: #c07e30;
+  border-color: #c07e30;
+  box-shadow: none;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+    background: #795548;
+    border-color: #795548;
+}
