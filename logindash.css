@@ -1,6 +1,6 @@
 /* Change background image and font family */
 body {
-  background-image: url("http://nightfury.info/wp-content/uploads/2018/07/bg-login.jpg");
+  background-image: url("./wp-content/uploads/2018/07/bg-login.jpg");
   font-family: Arial,Verdana,sans-serif;
   background-size:cover;
   background-repeat: no-repeat;
