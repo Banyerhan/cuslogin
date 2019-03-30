@@ -1,6 +1,6 @@
 function modify_logo() {
     $logo_style = '<style type="text/css">';
-    $logo_style .= 'h1 a {background-image: url("./cuslogin/favic.png") !important;}';
+    $logo_style .= 'h1 a {background-image: url("../cuslogin/favic.png") !important;}';
     $logo_style .= '</style>';
     echo $logo_style;
 }
