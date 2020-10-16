@@ -7,7 +7,7 @@ function modify_logo() {
 add_action('login_head', 'modify_logo');
 
 function custom_login_css() {
-    wp_enqueue_style('login-styles', get_home_url() . '/cuslogin/logindash.css');
+    wp_enqueue_style('login-styles', get_home_url() . '/cuslogin/logindash.min.css');
 }
 add_action('login_enqueue_scripts', 'custom_login_css');
 
